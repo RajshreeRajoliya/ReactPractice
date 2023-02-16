@@ -3,7 +3,7 @@ import loder from './1493.gif'
 export default class Spinner extends Component {
   render() {
     return (
-      <div className='text-center'>
+      <div className='text-center my-5'>
         <img src={loder} alt="Loading"  />
       </div>
     )
