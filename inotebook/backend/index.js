@@ -4,7 +4,7 @@ const connectToMongo = require('./db')
 
 connectToMongo()
 const app=express();
-const port = 3000
+const port = 5000
 //beacuse we are using req.body in a
 app.use(express.json())
 
